@@ -89,3 +89,96 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
  
 </p>
 <br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF6.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+6. We are finally going to install the programs/softwares that we copied and pasted in the URL of Microsoft Edge!
+ 
+ - Download PHP Manager for IIS.
+ - Once it's done downloading, click on the "File Explorer" folder at the bottom and on the left bar, click on the "Downloads" folder. Keep this folder opened because this is where the downloads are going to be at.
+ - Install PHP Manager.
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF20.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+7. Download and install the Rewrite Module.
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF9.1.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+8. For this step, we are going to create a new folder for one of the prerequisites.
+ 
+- Launch File Explorer(you can also right-click the icon and click on a random folder to open another folder window)
+- On the left bar, click on the > arrow on "This PC" and it should open up other directories. Click on "Windows (C:)"
+- On the top left corner, click on the folder to create a new folder (you can also press Ctrl + Shift + N to create a new folder).
+-  Name the folder PHP.
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF11.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+9. Download PHP 7.3.8.
+ 
+ - After downloading it, instead of installing it, we're going to unzip/extract the folder into the PHP folder we created earlier.
+ - To extract it, right-click on the folder and click on "Extract all"
+ - For the destination, click "Browse" and on the left side, click on "Windows (C:)" and click on the PHP folder. Extract the folder into the PHP folder.
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF16.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+10. Download VC_redist.x86
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF7.gif" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+11. Download and install MySQL_5.5.62
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF8.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+12. The MySQL configuration wizard will pop up after installing the program.
+ 
+ - Click on "Standard Configuration", then keep clicking "Next" until it asks you to create a password. Create a password that you can remember because we will need it! (The username is root and then your password!)
+ - Click "Next" and then "Execute". It will take a bit to install everything but once it's done, click "Finish".
+ 
+ 
+</p>
+<br />
