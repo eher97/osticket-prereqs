@@ -58,3 +58,29 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
  
 </p>
 <br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF4.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+4. After successfully signing into the VM, it should look like you're launching Windows 10 for the first time.
+
+ - Launch Microsoft Edge. Copy this link and paste it into the URL: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 | This link brings us the list of prerequisites that is required to install osTicket.
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF4.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+4. After successfully signing into the VM, it should look like you're launching Windows 10 for the first time.
+
+ - Launch Microsoft Edge. Copy this link and paste it into the URL: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 | This link brings us the list of prerequisites that is required to install osTicket.
+ 
+ 
+</p>
+<br />
