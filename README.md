@@ -74,12 +74,17 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 
 <p>
-<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF4.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/control%20panel.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-4. After successfully signing into the VM, it should look like you're launching Windows 10 for the first time.
+5. Before we install anything, we have to enable Internet Information Services(IIS) with CGI.
 
- - Launch Microsoft Edge. Copy this link and paste it into the URL: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 | This link brings us the list of prerequisites that is required to install osTicket.
+ - Go to the search bar at the bottom and look up Control Panel.
+ - Click on "uninstall a program" under "Programs".
+ - On the left sidebar, click on "Turn Windows Features on and off".
+ - Scroll down until you find "Internet Information Services". Check the box to enable it.
+ - Click on [+] next to IIS and it should open up other files under it. Click the [+] on "World Wide Web Services" and then click the [+] on Application Development Features. Scroll down until you find CGI and then check the box next to it.
+ - Press OK and it should start installing IIS & CGI.
  
  
 </p>
