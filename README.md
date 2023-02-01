@@ -249,7 +249,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
  <p>
  After enabling the extensions, go back to the osTicket page and refresh the page and some of the extensions should now have a green check mark.
  <p>
- <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF24.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+ <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF24.gif" height="45%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -258,7 +258,10 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF12.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-17. 
+17. Continue onto the next page and it's going to tell us that there's a configuration file missing.
+ 
+ - Go to File Explorer and browse through the directories: Windows(C:) > inetpub > wwwroot > osTicket > include
+ - Once you get to the "include" folder, look for "ost-sampleconfig.php". Rename the file to "ost-config.php".
  
  
 </p>
@@ -269,7 +272,15 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF17.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-18. 
+18. We are going to change the Permissions of the "ost-config.php" file.
+ 
+ - Right-click the file and then click on "Properties".
+ - Click on the "Security" tab, and then click on "Advanced".
+ - Click on "Disable Inheritance" and then choose "Remove all inherited permissions from this object".
+ - Click "Add" and then select "Add a principal" at the top.
+ - Type in "Everyone" in the box and then select OK.
+ - Check all the boxes for the permissions and click OK. Then click on "Apply" and then "OK".
+ - Continue onto the next page of osTicket.
  
  
 </p>
