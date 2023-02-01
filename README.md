@@ -46,7 +46,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 
 <p>
-<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF3.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF3.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 3. After the VM has been created, click on "Go to Resource" and the page should show the overview of the VM.
@@ -63,7 +63,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 
 <p>
-<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF4.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF4.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 4. After successfully signing into the VM, it should look like you're launching Windows 10 for the first time.
@@ -76,7 +76,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 
 <p>
-<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/control%20panel.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/control%20panel.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 5. Before we install anything, we have to enable Internet Information Services(IIS) with CGI.
@@ -109,7 +109,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 
 <p>
-<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF20.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF20.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 7. Download and install the Rewrite Module.
@@ -173,7 +173,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 
 <p>
-<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF8.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF8.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 12. The MySQL configuration wizard will pop up after installing the program.
@@ -293,7 +293,9 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF13.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-19. 
+19. We are going to download and install the final file now
+ 
+ - Download and install HeidiSQL
  
  
 </p>
@@ -304,18 +306,15 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF10.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-20. 
+20. After installing HeidiSQL, we are going to create our our account and database for osTicket.
  
- 
-</p>
-<br />
-
-
-<p>
-<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF18.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-21. 
+ - Launch HeidiSQL.
+ - Click on "New" on the bottom left corner.
+ - Create your user and password. After that, click "open".
+ - On the left window, right-click and select "Create new" and then select "database".
+ - Name the database "osTicket" and then click OK.
+ - Add your database information at the bottom of the osTicket page. Fill out the other blanks(admin name, email, etc and THIS IS IMPORTANT BECAUSE YOU WILL NEED THE CREDENTIALS TO SIGN INTO YOUR OSTICKET) that's above the "Database Settings".
+ - Once you are done setting up, click on "Install Now".
  
  
 </p>
@@ -326,7 +325,25 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF19.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-22. 
+21. Next, we are going to change the permissions of the "ost-config.php".
+ 
+ - Locate the file back in the "wwwroot" folder.
+ - Right-click "ost-config.php" to Properties > Security > Advanced
+ - Double-click on "Everyone" and uncheck "Full control", "Modify", and "Write". Apply the settings and then click OK.
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF18.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+22. Once that is done, click on the link that is below "Your Staff Control Panel"
+ 
+ - Sign in using the credentials you created earlier from the osTicket page when you were creating your account.
+ - Congratulations! You made your own osTicket database! 
  
  
 </p>
@@ -335,9 +352,22 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <p>
 <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF14.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p
+<p>
+23. There is an error that's at the top of the page after signing into osTicket. We are going to delete the "setup" folder/directory for security reasons, which is located:
+ 
+ - Windows (C:) > inetpub > wwwroot > osTicket
+ - Once you find the "setup" folder, delete it.
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF15.gif" height="85%" width="85%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-23. 
+24. Refresh the osTicket page and the error at the top should disappear!
  
  
 </p>
@@ -345,13 +375,5 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 
 <p>
-<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF15.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I hope the steps to install osTicket in a Virtual Machine on Azure was easy to understand. If you have any questions, feel free to contact me at eileen.her97@gmail.com!
 </p>
-<p>
-24. 
- 
- 
-</p>
-<br />
-
-
