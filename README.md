@@ -2,23 +2,24 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial demonstrates on how to install osTicket in a Virtual Machine on Azure Cloud.<br />
+<h1>How To Install osTicket</h1>
+This tutorial goes in-depth on how to install osTicket, a ticketing system, into a virtual machine that we will create on Azure Cloud.<br />
 
-<h2>Environments and Technologies Used</h2>
+<h2>Environments Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop Connection
-- Internet Information Services (IIS)
-- Windows Features
+- Microsoft Azure
+- Windows 10
+- Information Internet Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>Technologies/Softwares/Services Used </h2>
 
-- Windows 10</b> (21H2)
+- Azure Virtual Machine
+- Azure Resource Group
+- osTicket
 
 <h2>List of Prerequisites</h2>
 
-https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 <h2>Installation Steps</h2>
 
