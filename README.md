@@ -306,7 +306,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF10.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-20. After installing HeidiSQL, we are going to create our our account and database for osTicket.
+20. After installing HeidiSQL, we are going to create our account and database for osTicket.
  
  - Launch HeidiSQL.
  - Click on "New" on the bottom left corner.
