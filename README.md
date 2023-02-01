@@ -121,7 +121,7 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF9.1.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-8. For this step, we are going to create a new folder for one of the prerequisites.
+8. For this step, we are going to create a new folder/directory for one of the prerequisites.
  
 - Launch File Explorer(you can also right-click the icon and click on a random folder to open another folder window)
 - On the left bar, click on the > arrow on "This PC" and it should open up other directories. Click on "Windows (C:)"
@@ -182,3 +182,163 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
  
 </p>
 <br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF5.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+13. For this step, we have to enable a new version of PHP within the Internet Information Services(IIS)
+
+ - On the search bar at the bottom, type in IIS. Right-click it and click "Run as Administrator"
+ - Click on "PHP Manager"
+ - Click on "Register new PHP version"
+ - It's going to ask for a new PHP so we are going to browse to our PHP folder.
+ - In the PHP folder, click on "php-cgi" then press OK
+ - On the left bar, we are gonna go back to the home page(where it listed PHP Manager) so click back on your VM(or whatver name you named your VM)
+ - On the far right, click on "Restart" so that the the new version of PHP we registered will take effect.
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF21.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+14. Next, we are going to download the osTicket folder and after downloading the folder, we are going to extract the files into a different folder/directory.
+
+ - Right-click the osTicket folder from the "Downloads" folder and we are going to browse through the folders.
+ - Windows(C:) > inetpub > wwwroot | We are going to extract it in the "wwwroot" folder.
+ - After it's done installing, there should be an "upload" folder. Right-click the folder and rename it to "osTicket".
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF22.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+15. Reload IIS and Run as Adminstrator.
+
+- On the left, click on the v arrow next to your VM and do the same with "sites" until you see "osTicket". (VM > sites > osTicket)
+- On the right, click on "Browse *:80" and osTicket should come up in the web browser.
+- Notice that some extensions are disabled. We are going to enable them in the next step!
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF23.gif" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+16. In IIS, click on "PHP Manager"
+<p>
+ At the bottom, click on "Enable or Disable an extension".
+ 
+ To enable/disable an extension, right-click on them. We are gonna look for:
+<p>
+ 
+  - php.imap.dll
+  - php_intl.dll
+  - php.opache.dll
+ <p>
+ After enabling the extensions, go back to the osTicket page and refresh the page and some of the extensions should now have a green check mark.
+ <p>
+ <img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF24.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF12.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+17. 
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF17.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+18. 
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF13.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+19. 
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF10.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+20. 
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF18.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+21. 
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF19.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+22. 
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF14.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+23. 
+ 
+ 
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF15.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+24. 
+ 
+ 
+</p>
+<br />
+
+
