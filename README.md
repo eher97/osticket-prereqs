@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial demonstrates on how to install osTicket in a Virtual Machine on Azure.<br />
+This tutorial demonstrates on how to install osTicket in a Virtual Machine on Azure Cloud.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -23,14 +23,16 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://user-images.githubusercontent.com/92277527/215697657-35b8379f-b906-4098-a44f-7d98eec9bc8d.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/92277527/215697657-35b8379f-b906-4098-a44f-7d98eec9bc8d.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 1. Create a Resource Group on Azure. This is where we will install our Virtual Machine. Depending on your location, choose the region that fits you best.
 </p>
 <br />
 
-[![Link to video](https://i.imgur.com/ERNpSe6.png)](https://www.youtube.com/watch?v=FJJc3pZPIXs)
+<p>
+<img src="https://github.com/eher97/osticket-prereqs/blob/main/GIFs/GIF2.gif" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
 
 2. Create a Virtual Machine within the RG(Resource Group) that was just created. The VM(Virtual Machine) should have the same region as the RG.
 
