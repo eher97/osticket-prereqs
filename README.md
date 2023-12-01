@@ -376,5 +376,5 @@ This tutorial goes in-depth on how to install osTicket, a ticketing system, into
 
 
 <p>
-I hope the steps to install osTicket in a Virtual Machine on Azure was easy to understand. If you have any questions, feel free to contact me at eileen.her97@gmail.com!
+I hope the steps to install osTicket in a Virtual Machine on Azure was easy to understand.
 </p>
